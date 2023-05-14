@@ -1,0 +1,249 @@
+.background {
+    top: 20px;
+    border: 5px white;
+    background: url(background.jpg) no-repeat;
+    background-size: 400px 650px;
+    width: 71.5mm;
+    height: 147.5mm;
+    position: relative;
+    background-position: calc(50% + 50px) top;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    opacity: 1;
+    position: absolute;
+}
+img.button_image{
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.fade {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+.button_text{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+
+.liked{
+    position: absolute;
+    width: 67px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salons{
+    position: absolute;
+    bottom: 0;
+    margin-left: 67px;
+    width: 67px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reservations{
+    position: absolute;
+    margin-left: 134px;
+    width: 67px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inbox{
+    position: absolute;
+    margin-left: 201px;
+    width: 67px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    box-sizing: border-box;
+    opacity: 1;
+    position: relative;
+}
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 40px;
+    background: black;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name h1{
+    margin: 0;
+    padding: 0;
+    font-family: Virtual Bliss, Calibri, Arial;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
+.home_line{
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    opacity: 0.5;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.home_line .menu_icon{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url("Icons/menu.png"); /* Add the image URL here */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    transition: width 0.3s, height 0.3s;
+}
+.menu_icon:hover{
+    width: 35px;
+    height: 35px;
+}
+.home_line h1 {
+    margin-right: 20px;
+    font-family: Calibri, Arial;
+    flex: 1;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.photo_bg{
+    background: black;
+    top: 30px;
+    height: 349px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.nails_1{
+    position: absolute;
+    top: 5px;
+    height: 81px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img.nail_image {
+    border-radius: 7%;
+    margin-right: 10px;
+    width: 110px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    transition: transform 0.3s;
+}
+.nail_image:hover {
+    transform: translateX(-10px);
+}
+.nails_1 h1{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.nails_2{
+    position: absolute;
+    top: 91px;
+    height: 81px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nails_2 h1{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.nails_3{
+    position: absolute;
+    top: 178px;
+    height: 81px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nails_3 h1{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.nails_4{
+    position: absolute;
+    top: 265px;
+    height: 81px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nails_4 h1{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
